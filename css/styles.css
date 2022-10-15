@@ -92,8 +92,12 @@ body {
 	color: #ffffff;
 }
 .button.primary {
-	background-color: var(--accent-color);
-	color: #ffffff;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.06em;
 }
 
 /* загаловки и текст секций */
@@ -169,7 +173,7 @@ body {
 
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 1.17;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 }
 .footer-link {
@@ -177,6 +181,10 @@ body {
 
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 1.17;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
+}
+.footer-link:hover,
+.footer-limk:focus {
+	color: var(--accent-color);
 }
