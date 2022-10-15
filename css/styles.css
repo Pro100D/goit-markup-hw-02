@@ -18,6 +18,7 @@ body {
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
+	text-decoration: none;
 }
 .logo-icon {
 	color: var(--accent-color);
@@ -30,6 +31,7 @@ body {
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
+	text-decoration: none;
 }
 /* site-nav */
 .site-nav .link {
@@ -39,6 +41,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -55,6 +58,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	text-decoration: none;
 }
 .site-contacts .link:hover,
 .site-contacts .link:focus {
@@ -83,7 +87,7 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
-	text-align: center;
+	
 	letter-spacing: 0.03em;
 }
 .button:hover,
@@ -128,6 +132,9 @@ body {
 	text-transform: uppercase;
 }
 /* Team */
+.team{
+	background: #F5F4FA;
+}
 .team .team-title {
 	color: var(--title-text-color);
 
@@ -164,6 +171,9 @@ body {
 	line-height: 1.8;
 	letter-spacing: 0.03em;
 }
+.portfolio-link{
+	text-decoration: none;
+}
 /* footer */
 .footer {
 	background-color: #2f303a;
@@ -183,6 +193,7 @@ body {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
+	text-decoration: none;
 }
 .footer-link:hover,
 .footer-limk:focus {
